@@ -206,6 +206,10 @@ nav {
   text-align: center;
   transform: translateY(-110px);
 }
+.isi-card-1:hover{
+    background-color: #f0efef;
+
+}
 .div-img-card-1 {
   justify-content: center;
   display: flex;
@@ -325,6 +329,7 @@ nav {
   align-items: center;
   display: flex;
   flex-direction: column;
+  padding-top: 60px;
 }
 
 .header-jumbotron-4 {
@@ -345,7 +350,7 @@ nav {
 }
 /* jumbotron-4 card-3 */
 .container-card-3 {
-  max-width: 1120px;
+  max-width: 1020px;
   width: 100%;
 }
 .slide-content-card-3 {
@@ -360,16 +365,17 @@ nav {
   /* background-color:#868686 ; */
   background-color: #f9fbfc;
   border: 1px solid grey;
-  box-shadow: 3px 3px 3px 3px rgb(185, 185, 185);
+  box-shadow: 1.5px 1.5px 1.5px 1.5px rgb(185, 185, 185);
 }
 .card-3 .image-content-card-3 {
-  width: 220px;
-  height: 220px;
-  margin: 0 40px;
+  width: 180px;
+  height: 180px;
+  margin: 15px 40px;
 }
 .card-3 .image-content-card-3 img {
   width: 100%;
   height: 100%;
+  object-fit: cover;
 }
 .name-food-card-3 {
   margin: 0 20px;
@@ -816,7 +822,7 @@ nav {
   justify-content: space-evenly;
 }
 .menu .h1-footer-1 {
-  font-size: 35px;
+  font-size: 30px;
   font-family: 'Poppins', sans-serif;
   text-transform: capitalize;
   font-weight: 600;
@@ -827,7 +833,7 @@ nav {
   padding-top: 10px;
 }
 .library .h1-footer-2 {
-  font-size: 35px;
+  font-size: 30px;
   font-family: 'Poppins', sans-serif;
   text-transform: capitalize;
   font-weight: 600;
@@ -838,7 +844,7 @@ nav {
   padding-top: 10px;
 }
 .contact .h1-footer-3 {
-  font-size: 35px;
+  font-size: 30px;
   font-family: 'Poppins', sans-serif;
   text-transform: capitalize;
   font-weight: 600;
