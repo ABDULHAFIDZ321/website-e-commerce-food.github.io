@@ -112,3 +112,15 @@ containerImageHero.addEventListener('click',function(e){
     }
  });
 
+const toogle =document.querySelector('.menu-toogle');
+const span1 =document.querySelector('.span-1');
+const span2 =document.querySelector('.span-2');
+const span3 =document.querySelector('.span-3');
+const navMenu=document.querySelector('.ul-navbar');
+
+toogle.addEventListener('click',function () {
+  span1.classList.toggle('span-1-active');
+  span2.classList.toggle('span-2-active');
+  span3.classList.toggle('span-3-active');
+
+})
