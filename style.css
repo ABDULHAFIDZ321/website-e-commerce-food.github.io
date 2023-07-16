@@ -900,6 +900,51 @@ nav {
   font-weight: bolder;
   align-items: center;
 }
+.container-card-3 .swiper-Btn{
+  color: #000;
+  height: 45px;
+  width: 45px;
+  background: #fff;
+  border-radius: 50%;
+}
+.container-card-3 .swiper-Btn::before,
+.container-card-3 .swiper-Btn::after {
+  font-size: 20px;
+}
+.container-pizza .swiper-Btn{
+  color: #000;
+  height: 45px;
+  width: 45px;
+  background: #fff;
+  border-radius: 50%;
+}
+.container-pizza .swiper-Btn::before,
+.container-pizza .swiper-Btn::after {
+  font-size: 20px;
+}
+.container-burger .swiper-Btn{
+  color: #000;
+  height: 45px;
+  width: 45px;
+  background: #fff;
+  border-radius: 50%;
+}
+.container-burger .swiper-Btn::before,
+.container-burger .swiper-Btn::after {
+  font-size: 20px;
+}
+.container-salad .swiper-Btn{
+  color: #000;
+  height: 45px;
+  width: 45px;
+  background: #fff;
+  border-radius: 50%;
+}
+.container-salad .swiper-Btn::before,
+.container-salad .swiper-Btn::after {
+  font-size: 20px;
+}
+
 /* responsive */
 @media screen and (max-width:768px){
   .ul-navbar{
@@ -916,7 +961,7 @@ nav {
   }
 
   .title-hero ,#text-food-animation{
-    font-size: 25px;
+    font-size: 22px;
   }
   .p-hero{
     font-size: 10px;
@@ -928,9 +973,11 @@ nav {
   .button-hero .button-order-now{
     margin-bottom: 20px;
     font-size: 16px;
+    white-space: nowrap;
   }
   .button-hero .button-explore{
     font-size: 16px;
+    white-space: nowrap;
   }
   .image-hero{
     width: 200px;
@@ -1007,6 +1054,9 @@ nav {
   font-size: 12px;
   padding: 5px 40px;
 }
+.slide-content-card-3,.slide-content-pizza,.slide-content-burger,.slide-content-salad{
+  margin: 0 30px;
+}
 .card-3 .image-content-card-3 {
   width: 150px;
   height: 150px;
@@ -1024,16 +1074,95 @@ nav {
 .h2-card-3{
   font-size: 20px;
 }
+.header-jumbotron-5 .title-jumbotron-5{
+  font-size: 30px;
+}
+.card-4 .image-content-card-4 {
+  width: 150px;
+  height: 150px;
+  margin: 15px 30px;
+}
+.h2-card-4{
+  font-size: 20px;
+}
+.p-card-4{
+  font-size: 10px;
+}
+.header-jumbotron-6 .title-jumbotron-6{
+  font-size: 30px;
+}
+ .header-jumbotron-6 .p-jumbotron-6{
+  font-size: 10px;
+}
+.card-5 .image-content-card-5 {
+  width: 150px;
+  height: 150px;
+  margin: 15px 30px;
+}
+.h2-card-5{
+  font-size: 20px;
+}
+.p-card-5{
+  font-size: 10px;
+}
+.header-jumbotron-7 .title-jumbotron-7{
+  font-size: 30px;
+}
+ .header-jumbotron-7 .p-jumbotron-7{
+  font-size: 10px;
+}
+.card-6 .image-content-card-6 {
+  width: 150px;
+  height: 150px;
+  margin: 15px 30px;
+}
+.h2-card-6{
+  font-size: 20px;
+}
+.p-card-6{
+  font-size: 10px;
+}
+
 .fa-bag-shopping{
   font-size: 25px;
   padding: 30px 20px;
+}
+.header-jumbotron-8 .title-jumbotron-8{
+  font-size: 30px;
+}
+ .header-jumbotron-8 .p-jumbotron-8{
+  font-size: 10px;
 }
   .cheff-special{
     justify-content: center;
     align-items: center;
     flex-direction: column;
   }
-  .footer{
-    display: none;
+  
+  .cheff-1,.cheff-2,.cheff-3{
+    width: 200px;
+    height: 300px;
   }
+  .cheff-2{
+    transform: translateY(0);
+  }
+  .footer{
+    padding-top: 100px;
+  }
+  .container-footer{
+    padding: 10px;
+    flex-wrap: wrap-reverse;
+  }
+  .menu .h1-footer-1,.library .h1-footer-2,.contact .h1-footer-3{
+    font-size: 20px;
+  }
+  .menu .p-footer-1,.library .p-footer-2,.contact .p-footer-3{
+    font-size: 12px;
+  }
+  .name-developer .h1-footer-4{
+    font-size: 18px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    text-align: center;
+  } 
 }
