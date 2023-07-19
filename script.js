@@ -19,7 +19,7 @@ var swiper = new Swiper(".slide-content-card-3", {
       0: {
         slidesPerView: 1,
       },
-      520: {
+      430: {
         slidesPerView: 2,
       },
       768: {
@@ -43,7 +43,7 @@ var swiper = new Swiper(".slide-content-pizza", {
       0: {
         slidesPerView: 1,
       },
-      520: {
+      430: {
         slidesPerView: 2,
       },
       768: {
@@ -67,7 +67,7 @@ var swiper = new Swiper(".slide-content-burger", {
       0: {
         slidesPerView: 1,
       },
-      520: {
+      430: {
         slidesPerView: 2,
       },
       768: {
@@ -91,7 +91,7 @@ var swiper = new Swiper(".slide-content-burger", {
       0: {
         slidesPerView: 1,
       },
-      520: {
+      430: {
         slidesPerView: 2,
       },
       768: {
