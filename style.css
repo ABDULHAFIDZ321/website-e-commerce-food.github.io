@@ -1069,9 +1069,8 @@ nav {
   font-size: 12px;
   padding: 5px 40px;
 }
-.slide-content-card-3,.slide-content-pizza,.slide-content-burger,.slide-content-salad{
-  margin: 0 30px;
-}
+
+
 .card-3 .image-content-card-3 {
   width: 150px;
   height: 150px;
@@ -1181,3 +1180,30 @@ nav {
     text-align: center;
   } 
 }
+
+@media screen and (max-width:425px) {
+  .slide-content-card-3,.slide-content-pizza,.slide-content-burger,.slide-content-salad{
+    margin: 0 75px;
+  }
+}
+@media screen and (max-width:399px) {
+  .slide-content-card-3,.slide-content-pizza,.slide-content-burger,.slide-content-salad{
+    margin: 0 63px;
+  }
+}
+@media screen and (max-width:365px) {
+  .slide-content-card-3,.slide-content-pizza,.slide-content-burger,.slide-content-salad{
+    margin: 0 55px;
+  }
+}
+@media screen and (max-width:350px) {
+  .slide-content-card-3,.slide-content-pizza,.slide-content-burger,.slide-content-salad{
+    margin: 0 40px;
+  }
+}
+@media screen and (max-width:320px) {
+  .slide-content-card-3,.slide-content-pizza,.slide-content-burger,.slide-content-salad{
+    margin: 0 30px;
+  }
+}
+
