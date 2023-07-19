@@ -948,9 +948,23 @@ nav {
 
 /* responsive */
 @media screen and (max-width:768px){
- .ul-navbar{
-  display: none;
- }
+.ul-navbar{
+  position: absolute;
+  flex-direction: column;
+  background-color: #f6ffde;
+  text-align: center;
+  width: 60vw;
+  height: 100vh;
+  top: 0;
+  transform: translateX(100px);
+  justify-content: space-evenly;  
+  z-index: -1;
+  gap: 0;
+  transition: 1s;
+}
+.navbar-active{
+  transform: translateX(-100px);
+}
   .menu-toogle span{
     display: block;
   }

@@ -112,15 +112,26 @@ containerImageHero.addEventListener('click',function(e){
     }
  });
 
-const toogle =document.querySelector('.menu-toogle');
+
 const span1 =document.querySelector('.span-1');
 const span2 =document.querySelector('.span-2');
 const span3 =document.querySelector('.span-3');
-const navMenu=document.querySelector('.ul-navbar');
+const ulNavbar =document.querySelector('.ul-navbar');
+const menuToogle=document.querySelector('.menu-toogle')
+const liNavbar=document.querySelectorAll('.a-navbar');
 
-toogle.addEventListener('click',function () {
+
+menuToogle.addEventListener('click',function(){
+  ulNavbar.classList.toggle('navbar-active');
   span1.classList.toggle('span-1-active');
   span2.classList.toggle('span-2-active');
   span3.classList.toggle('span-3-active');
-
 })
+function navbarRemove (){
+  ulNavbar.classList.remove('navbar-active');
+  span1.classList.remove('span-1-active');
+  span2.classList.remove('span-2-active');
+  span3.classList.remove('span-3-active');
+}
+liNavbar.forEach(e=>
+  e.addEventListener('click',navbarRemove))
