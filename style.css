@@ -956,7 +956,7 @@ nav {
   width: 60vw;
   height: 100vh;
   top: 0;
-  right: -300px;
+  right: -500px;
   overflow: hidden;
   justify-content: space-evenly;  
   z-index: -1;
@@ -976,6 +976,7 @@ nav {
     justify-content: center;
     align-items: center;
     flex-direction: column-reverse;
+    padding-top: 150px;
   }
 
   .title-hero ,#text-food-animation{
@@ -1091,6 +1092,9 @@ nav {
 .h2-card-3{
   font-size: 20px;
 }
+.jumbotron-5{
+  padding-top: 100px
+}
 .header-jumbotron-5 .title-jumbotron-5{
   font-size: 30px;
 }
@@ -1104,6 +1108,9 @@ nav {
 }
 .p-card-4{
   font-size: 10px;
+}
+.jumbotron-6{
+  padding-top: 100px;
 }
 .header-jumbotron-6 .title-jumbotron-6{
   font-size: 30px;
@@ -1121,6 +1128,9 @@ nav {
 }
 .p-card-5{
   font-size: 10px;
+}
+.jumbotron-7{
+  padding-top: 100px;
 }
 .header-jumbotron-7 .title-jumbotron-7{
   font-size: 30px;
@@ -1143,6 +1153,9 @@ nav {
 .fa-bag-shopping{
   font-size: 25px;
   padding: 30px 20px;
+}
+.jumbotron-8{
+  padding-top: 100px
 }
 .header-jumbotron-8 .title-jumbotron-8{
   font-size: 30px;
@@ -1184,6 +1197,21 @@ nav {
   } 
 }
 
+@media screen and (max-width:500px) {
+  .slide-content-card-3,.slide-content-pizza,.slide-content-burger,.slide-content-salad{
+    margin: 0 115px;
+  }
+}
+@media screen and (max-width:475px) {
+  .slide-content-card-3,.slide-content-pizza,.slide-content-burger,.slide-content-salad{
+    margin: 0 95px;
+  }
+}
+@media screen and (max-width:450px) {
+  .slide-content-card-3,.slide-content-pizza,.slide-content-burger,.slide-content-salad{
+    margin: 0 85px;
+  }
+}
 @media screen and (max-width:425px) {
   .slide-content-card-3,.slide-content-pizza,.slide-content-burger,.slide-content-salad{
     margin: 0 75px;
